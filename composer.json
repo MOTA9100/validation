@@ -1,12 +1,15 @@
 {
-    "name": "anetwork/validation",
+    "name": "mota9100/validation",
     "license": "MIT",
-    "description": "Laravel persian validation",
-    "keyword": ["laravel", "validation", "persian", "farsi", "validate", "lumen", "check"],
+    "description": "Lumen persian validation",
     "authors": [
         {
             "name": "Shahrokh Niakan",
             "email": "shahrokhniakan@gmail.com"
+        },
+        {
+            "name": "Moslem Tayari",
+            "email": "motaprogrammer@yahoo.com"
         }
     ],
     "autoload": {

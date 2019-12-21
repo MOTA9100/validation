@@ -1,8 +1,6 @@
 <?php
 namespace Anetwork\Validation;
 
-use App;
-
 /**
  * @author Shahrokh Niakan <sh.niakan@anetwork.ir>
  * @since Sep 11, 2016
@@ -35,7 +33,7 @@ class ValidationMessages
 	   */
 	 public function __construct() 
 	 {
-		 $this->lang = App::getLocale();
+		 $this->lang = app()->getLocale();
 
 		if(! file_exists(resource_path('lang/validation/' . $this->lang . '.php'))){
             $this->config = include __DIR__ . '/../lang/' . $this->lang . '.php';
@@ -50,16 +48,13 @@ class ValidationMessages
 	  * @author Shahrokh Niakan <sh.niakan@anetwork.ir>
 	  * @since Jun 6, 2017
 	  */
-	 public static function setCustomMessages( $validator )
+	 public static function setCustomMessages($validator)
 	 {	
 	 	self::$app = include __DIR__ . '/Config.php';
 
-	 	if ( $validator ) {
-	 		if ( round(App::version(), 1) > self::$app['version'] ) {
-	 			self::$messages = $validator->customMessages;
-	 		} else {
-	 			self::$messages = $validator->getCustomMessages();
-	 		}
+	 	if ($validator) {
+
+            self::$messages = $validator->customMessages;
 	 	}
 	 }
 

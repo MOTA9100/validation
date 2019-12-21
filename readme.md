@@ -1,28 +1,29 @@
 [![Build Status](https://travis-ci.org/anetwork/validation.svg?branch=master)](https://travis-ci.org/anetwork/validation)
-[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/anetwork/validation/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/anetwork/validation/?branch=master)
 [![Latest Stable Version](https://poser.pugx.org/anetwork/validation/v/stable)](https://packagist.org/packages/anetwork/validation)
 [![Total Downloads](https://poser.pugx.org/anetwork/validation/downloads)](https://packagist.org/packages/anetwork/validation)
 [![License](https://poser.pugx.org/anetwork/validation/license)](https://github.com/anetwork/validation/blob/master/LICENSE.md)
 
 # Laravel Persian Validation
 
-Laravel Persian Validation provides validation for Persian alphabet, number and etc.
+Lumen Persian Validation provides validation for Persian alphabet, number and etc.
+Forked From Laravel Persian Validation [Anetwork/validation](https://github.com/anetwork/validation)
+ 
 
 ## Requirement
 
-* Laravel 5.*
-* PHP 5.5 >=
+* Lumen ^6.0
+* PHP >= 7.2
 
 ## License
 
-Laravel Persian Validation is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT)
+Lumen Persian Validation is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT)
 
 ## Install
 
 Via Composer
 
 ``` bash
-$ composer require Anetwork/Validation
+$ composer require mota9100/validation
 ```
 
 ## Config
