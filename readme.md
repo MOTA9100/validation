@@ -3,7 +3,7 @@
 [![Total Downloads](https://poser.pugx.org/anetwork/validation/downloads)](https://packagist.org/packages/anetwork/validation)
 [![License](https://poser.pugx.org/anetwork/validation/license)](https://github.com/anetwork/validation/blob/master/LICENSE.md)
 
-# Laravel Persian Validation
+# Lumen Persian Validation
 
 Lumen Persian Validation provides validation for Persian alphabet, number and etc.
 Forked From Laravel Persian Validation [Anetwork/validation](https://github.com/anetwork/validation)
