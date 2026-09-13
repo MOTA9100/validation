@@ -3,7 +3,7 @@
 namespace Anetwork\Validation;
 
 use Illuminate\Support\ServiceProvider;
-use Validator;
+use Illuminate\Support\Facades\Validator;
 
 /**
  * @author Shahrokh Niakan <sh.niakan@anetwork.ir>
@@ -71,6 +71,5 @@ class PersianValidationServiceProvider extends ServiceProvider
         $this->app->bind('ValidationRules', 'Anetwork\Validation\ValidationRules');
 
         $this->app->bind('ValidationMessages', 'Anetwork\Validation\ValidationMessages');
-
     }
 }
